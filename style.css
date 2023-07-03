@@ -3,10 +3,57 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main_container{
-    height: 600px;
-    width: 500px;
+    height: 650px;
+    width: 450px;
     border: 2px solid rgb(60, 58, 58);
     border-radius: 10px;
+    background-color: rgb(203, 198, 198);
+    display: flex;
+    flex-direction: column;
+}
+
+.display_result{
+    border:2px solid black;
+    height: 100px;
+    margin: 30px ;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.clr_buttons{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 30px 30px 30px ;
+
+}
+.clr_button,.delete_button{
+    border:2px solid rgb(60, 58, 58); 
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgb(220, 89, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.first_row, .second_row, .third_row,.fourth_row{
+    height: 60px;
+    margin: 0px 30px 30px 30px ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cal_buttons{
+    border:2px solid rgb(60, 58, 58);
+    height: 60px;
+    width: 70px;
+    border-radius: 5px;
+    background-color:rgb(245, 241, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
 }
