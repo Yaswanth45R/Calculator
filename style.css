@@ -1,0 +1,12 @@
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container{
+    height: 600px;
+    width: 500px;
+    border: 2px solid rgb(60, 58, 58);
+    border-radius: 10px;
+}
