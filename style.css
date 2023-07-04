@@ -22,11 +22,16 @@ body{
     background-color: whitesmoke;
     border-radius: 10px;
 }
+.display_row_one,.display_row_two{
+    height: 50px;
+    font-size: x-large;
+    text-align: end;
+    padding: 6px 10px 0 0;
+}
 .clr_buttons{
     display: flex;
     justify-content:space-between;
     margin: 0px 30px 30px 30px ;
-
 }
 .clr_button,.delete_button{
     border:2px solid rgb(60, 58, 58); 
@@ -38,6 +43,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    transition: all .1s ease;
 }
 .first_row, .second_row, .third_row,.fourth_row{
     height: 60px;
@@ -56,4 +62,20 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    transition: all .1s ease;
+}
+.click {
+    transform: scale(1.01);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+.equal{
+    transition: all .1s ease;
+}
+
+.clickEqual{
+    transform: scale(1.01);
+    border-color: #66add3;
+    box-shadow: 0 0 1rem #66add3;
 }
